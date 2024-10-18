@@ -24,6 +24,23 @@ body {
     height: 50%;
 }
 
+.profile-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.contact-icon{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contact-text {
+    font-size: 1em;
+    display: inline-block;
+}
+
 .lower-left, .lower-right{
     height: 50%;
 }
+
