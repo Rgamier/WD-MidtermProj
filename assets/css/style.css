@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.upper-left, .lower-left {
+    border: 1px solid black;
+    padding: 2%;
+    width: 30%;
+}
+
+.upper-right, .lower-right {
+    border: 1px solid black;
+    padding: 2%;
+    width: 70%;
+}
+
+.upper-left, .upper-right {
+    height: 50%;
+}
+
+.lower-left, .lower-right{
+    height: 50%;
+}
